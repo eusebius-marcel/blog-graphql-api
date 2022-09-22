@@ -1,7 +1,8 @@
 module Types
   class CommentType < BaseObject
-    field :user_id, Integer, null: false
+    field :id, ID, null: false
+    field :user_id, ID, null: false
     field :body, String, null: false
-    field :post_id, Integer, null: false
+    field :post_id, ID, null: false
   end
 end
