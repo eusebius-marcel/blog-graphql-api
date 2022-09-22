@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :post do
     user
-    body { FFaker::HTMLIpsum.body }
+    body { FFaker::Lorem.paragraph }
   end
 end

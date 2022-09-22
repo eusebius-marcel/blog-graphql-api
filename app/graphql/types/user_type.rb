@@ -18,12 +18,12 @@ module Types
     description "All the attributes needed to create/update a user"
 
     argument :id, ID, required: false
-    argument :first_name, String, required: true
-    argument :last_name, String, required: true
-    argument :street, String, required: true
-    argument :number, Integer, required: true
-    argument :city, String, required: true
-    argument :postcode, Integer, required: true
-    argument :country, String, required: true
+    argument :first_name, String, required: false
+    argument :last_name, String, required: false
+    argument :street, String, required: false
+    argument :number, Integer, required: false
+    argument :city, String, required: false
+    argument :postcode, Integer, required: false
+    argument :country, String, required: false
   end
 end
